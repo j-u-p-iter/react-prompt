@@ -1,0 +1,44 @@
+{
+  "name": "@j.u.p.iter/react-prompt",
+  "version": "0.0.1",
+  "description": "To show modal on history transition",
+  "keywords": [
+    "react",
+    "navigation"
+  ],
+  "main": "dist/lib/react-prompt.cjs.js",
+  "module": "dist/lib/react-prompt.esm.js",
+  "umd:main": "dist/lib/react-prompt.umd.min.js",
+  "source": "dist/lib/react-prompt.js",
+  "typings": "dist/types",
+  "repository": "git@github.com:j-u-p-iter/react-prompt.git",
+  "author": "Leontyev Kirill (j.u.p.iter) <pn79122821224@gmail.com> (http://j-u-p-iter.pro/)",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "commit": "jupiter-scripts precommit --allowJs",
+    "build": "jupiter-scripts build --bundle",
+    "start": "yarn run build --watch",
+    "lint": "jupiter-scripts lint --format codeFrame",
+    "lint:fix": "yarn run lint --fix",
+    "test": "jupiter-scripts test"
+  },
+  "peerDependencies": {
+    "react": ">=16.4.2",
+    "react-dom": ">=16.7.0"
+  },
+  "dependencies": {
+    "history": "^4.7.2"
+  },
+  "devDependencies": {
+    "@j.u.p.iter/jupiter-scripts": "^1.8.0",
+    "@types/history": "^4.7.2",
+    "@types/react": "^16.7.18",
+    "@types/react-dom": "^16.0.11",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-testing-library": "^5.4.4"
+  }
+}

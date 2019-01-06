@@ -1,0 +1,7 @@
+1. https://kamranicus.com/posts/2018-07-26-react-router-custom-transition-ui
+2. https://stackoverflow.com/questions/32841757/detecting-user-leaving-page-with-react-router
+3. https://reacttraining.com/react-router/web/example/preventing-transitionso
+4. https://github.com/ReactTraining/react-router/blob/master/packages/react-router/modules/Prompt.js
+5. https://github.com/ReactTraining/react-router/blob/master/packages/react-router/modules/Lifecycle.js
+
+And search more articles about this interesting topic.
