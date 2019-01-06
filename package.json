@@ -1,6 +1,6 @@
 {
   "name": "@j.u.p.iter/react-prompt",
-  "version": "0.0.1",
+  "version": "0.0.0-semantically-released",
   "description": "To show modal on history transition",
   "keywords": [
     "react",
